@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: "//localhost:20000",
+  publicPath: "//localhost:20000/dist-customized-service/",
   devServer: {
     port: 20000,
     headers: {
