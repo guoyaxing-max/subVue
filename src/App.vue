@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/swhy-service/swap-summary">One</router-link> |
+      <router-link to="/swhy-service/swap-funds">Two</router-link> |
+      <router-link to="/swhy-service/target-monitoring">Three</router-link> |
+      <router-link to="/swhy-service/customer-target-monitoring">Four</router-link> |
     </nav>
     <router-view/>
   </div>

@@ -1,5 +1,5 @@
 <template>
   <div class="about">
-    <h1>基金互换汇总统计表</h1>
+    <h1>分客户标的监控</h1>
   </div>
 </template>

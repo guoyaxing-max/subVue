@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: "//localhost:20000/dist-customized-service/",
+  publicPath: "/dist-customized-service/",
   devServer: {
     port: 20000,
     headers: {
@@ -8,7 +8,7 @@ module.exports = {
   },
   configureWebpack: {
     output: {
-      library: "swgyx",
+      library: "customized-module",
       libraryTarget: "umd",
     },
   },
